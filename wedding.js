@@ -20,4 +20,4 @@ const announcement = (name1, name2) => {
 const person1 = 'James Tonkin';
 const person2 = 'Melanie Reid';
 
-console.log(announcement(person1, person2));
+// console.log(announcement(person1, person2));
