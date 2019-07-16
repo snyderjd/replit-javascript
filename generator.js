@@ -21,11 +21,11 @@ const fullName = (first, middle, last) => {
     return student;
 };
 
-console.log(fullName('Michael', 'Henry', 'Ramirez'));
-console.log(fullName('Johnathon', 'James', 'Killibrew'));
-console.log(fullName('Sarah', 'Jane', 'Johnson'));
-console.log(fullName('Annabelle', 'Ruth', 'Tanner'));
-console.log(fullName('Pauline', 'Emelie', 'Lemonson'));
+// console.log(fullName('Michael', 'Henry', 'Ramirez'));
+// console.log(fullName('Johnathon', 'James', 'Killibrew'));
+// console.log(fullName('Sarah', 'Jane', 'Johnson'));
+// console.log(fullName('Annabelle', 'Ruth', 'Tanner'));
+// console.log(fullName('Pauline', 'Emelie', 'Lemonson'));
 
 // ------------- Student Object Generator -------------
 
@@ -65,9 +65,9 @@ const createStudent = (first, middle, last) => {
     return student;
 };
 
-console.log(createStudent('Yvonne', 'Kate', 'Ostrander'));
-console.log(createStudent('James', 'Richard', 'Donner'));
-console.log(createStudent('Kevin', 'Pyle', 'Bacon'));
-console.log(createStudent('Mary', 'Lynn', 'Smoot'));
-console.log(createStudent('Abigail', 'Beth', 'Green'));
+// console.log(createStudent('Yvonne', 'Kate', 'Ostrander'));
+// console.log(createStudent('James', 'Richard', 'Donner'));
+// console.log(createStudent('Kevin', 'Pyle', 'Bacon'));
+// console.log(createStudent('Mary', 'Lynn', 'Smoot'));
+// console.log(createStudent('Abigail', 'Beth', 'Green'));
 
