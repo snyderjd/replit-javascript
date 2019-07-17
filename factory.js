@@ -78,3 +78,27 @@ const addInterior = (object) => {
         }
         return object;
 };
+
+// Run addChassis to generate object with chassis
+const chassis = addChassis();
+console.log(chassis);
+
+// Run addEngine, taking in the object from addChassis and adding an engine
+const engine = addEngine(chassis);
+console.log(engine); 
+
+// Run addSuspension, taking in the object from addEngine and adding a suspension
+const suspension = addSuspension(engine);
+console.log(suspension);
+
+// Run addExhaust, taking in the object from addSuspension and adding an exhaust
+const exhaust = addExhaust(suspension);
+console.log(exhaust);
+
+// Run addBody, taking in the object from addExhaust and adding a body
+const body = addBody(exhaust);
+console.log(body);
+
+// Run addInterior, taking in the object from addBody and adding an interior
+const interior = addInterior(body);
+console.log(interior);
